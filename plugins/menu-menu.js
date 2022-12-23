@@ -9,7 +9,8 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) =
 try {
 let vn = './media/menu.mp3'
 let pp = imagen5
-let img = await(await fetch('https://wallpapercave.com/cdn-cgi/mirage/9f48035c8556a09e615e64e6dddf74556d9a86085bb383c9d88d361c9a60c645/1280/https://wallpapercave.com/wp/wp8472509.png')).buffer()
+//let img = await(await fetch('https://wallpapercave.com/cdn-cgi/mirage/9f48035c8556a09e615e64e6dddf74556d9a86085bb383c9d88d361c9a60c645/1280/https://wallpapercave.com/wp/wp8472509.png')).buffer()//
+
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -33,7 +34,7 @@ let str = `
 ║➤ *Owner:* keili serrudo
 ║➤ *Numero:* wa.me/5919321932
 ║➤ *Bot ofc:* wa.me/TUCACHERO
-║➤ *PayPal:* https://www.anonimous.org/SETSUNABOT
+║➤ //*PayPal:* https://www.anonimous.org/SETSUNABOT//
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
 ║➤ *Usuarios:* ${rtotalreg}
