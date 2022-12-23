@@ -8,7 +8,7 @@ import { join } from 'path'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
 try {
 let vn = './media/menu.mp3'
-let pp = imagen4
+let pp = './menu.mp4'
 let img = await(await fetch('https://wallpapercave.com/cdn-cgi/mirage/9f48035c8556a09e615e64e6dddf74556d9a86085bb383c9d88d361c9a60c645/1280/https://wallpapercave.com/wp/wp8472509.png')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
@@ -33,7 +33,7 @@ let str = `
 ║➤ *Owner:* keili serrudo
 ║➤ *Numero:* wa.me/5919321932
 ║➤ *Bot ofc:* wa.me/TUCACHERO
-║➤ *PayPal:* https://www.paypal.me/SETSUNABOT
+║➤ *PayPal:* https://www.anonimous.org/SETSUNABOT
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
 ║➤ *Usuarios:* ${rtotalreg}
@@ -637,10 +637,10 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝐓𝐇𝐄 𝐌𝐘𝐒𝐓𝐈𝐂 - 𝐁𝐎𝐓 👑',
+title: '👑 𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄ 👑',
 body: null,
 thumbnail: img,
-sourceUrl: `https://www.paypal.me/TheShadowBrokers133`
+sourceUrl: `https://www.anonimous.org/hackinprogresive`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
