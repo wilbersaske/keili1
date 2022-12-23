@@ -8,13 +8,13 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
-  ['59160966897', '👑 Mystic - Creador 👑', true],
-  ['59160966897', '💫 Mystic - Collaborator 1 💫', true],
-  ['59160966897', '💫 Mystic - Collaborator 2 💫', true],
-  ['59160966897', '💫 Mystic - Collaborator 3 💫', true],
-  ['59160966897', '💫 Mystic - Collaborator 4 💫', true],
-  ['59160966897', '💫 Mystic - Collaborator 5 💫', true],
-  ['59160966897', '💫 Mystic - Collaborator 6 💫', true],  
+  ['59160966897', '👑 𝑺𝑬𝑻𝑺𝑼𝑵𝑨 - 𝑩𝑶𝑻  👑', true],
+  ['59160966897', '💫 𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨 - Collaborator 1 💫', true],
+  ['59160966897', '💫 𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨 - Collaborator 2 💫', true],
+  ['59160966897', '💫 𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨 - Collaborator 3 💫', true],
+  ['59160966897', '💫 𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨 - Collaborator 4 💫', true],
+  ['59160966897', '💫 𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨 - Collaborator 5 💫', true],
+  ['59160966897', '💫 𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨 - Collaborator 6 💫', true],  
   ['59160966897'],
   ['59160966897'],
   //['59160966897'],	
@@ -55,7 +55,7 @@ global.APIKeys = {
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
-global.imagen4 = fs.readFileSync('./Menu.png')
+global.imagen4 = fs.readFileSync('./menu.mp4')
 
 global.mods = [] 
 
