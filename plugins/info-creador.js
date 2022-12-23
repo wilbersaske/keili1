@@ -27,7 +27,7 @@ let text = `
 *—◉ 𝙴𝙻 𝙲𝙾𝙽𝚃𝙰𝙲𝚃𝙾 𝙳𝙴 𝙻𝙰 𝙲𝙾𝙻𝙰𝙱𝙾𝚁𝙰𝙳𝙾𝚁𝙰 11 𝙴𝚂 https://instagram.com/gata_dios*
 `.trim()   
 let buttonMessage= {
-'document': { url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD` },
+'document': { url: `https://github.com/generaciondecristal` },
 'mimetype': `application/${document}`,
 'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
 'fileLength': 99999999999999,
