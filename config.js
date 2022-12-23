@@ -55,7 +55,9 @@ global.APIKeys = {
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png')
-global.imagen4 = fs.readFileSync('./menu.mp4')
+global.imagen4 = fs.readFileSync('./Menu.png')
+global.imagen5 = fs.readFileSync('./menu.mp4')
+
 
 global.mods = [] 
 
@@ -422,11 +424,11 @@ global.mes = d.toLocaleDateString('es', { month: 'long' })
 global.año = d.toLocaleDateString('es', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //*****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`
-global.gt = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.mysticbot = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
+global.wm2 = `▸ ${dia} ${fecha}\n▸ •𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨•`
+global.gt = '★•𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨•★'
+global.mysticbot = '★•𝑩𝑶𝑻 𝑺𝑬𝑻𝑺𝑼𝑵𝑨•★'
+global.md = 'https://github.com/wilbersaske/keili'
+global.mysticbot = 'https://github.com/wilbersaske/keili'
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
